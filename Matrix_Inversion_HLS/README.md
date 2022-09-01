@@ -101,6 +101,16 @@ There are no interface protocols followed for data transfer between BlockLUinver
 #### Note : 
 In our hardware design , we have saved memory space by storing the variable ‘S’ with partially occupying the memory of the input variable  ‘inA’. 
 
+### Results achieved:
+| S.No | Size_B | size_A | Execution time  ( in ns ) |
+| --------------- | --------------- | --------------- | --------------- |
+| 1 | 16 | 8 | 34480 |
+| 2 | 16 | 16 | 217120 |
+| 3 | 16 | 32 | 988700 |
+| 4 | 16 | 64 | 988700 |
+| 5 | 16 | 128 | 33700010 |
+| 6 | 16 | 256 | 253104130 |
+
 ### Interface ports : 
 
 We have kept the ports of input variable - ‘inA’ and output variable ‘INV’ to be of AXI-4 interface.Port 'size_A_original' has an interface of AXI-4 Lite interface. Additionally, intermediate arrays used in Matrix inversion are by default assigned an ‘ap_memory’ interface by the HLS tool.   
