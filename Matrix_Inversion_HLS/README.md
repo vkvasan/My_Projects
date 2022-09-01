@@ -15,7 +15,7 @@ Note: In this project we have used the Vitis HLS 2020.2 version .
 
 2. Clone and Create a project in Vitis HLS 
 ```sh
-git clone https://github.com/vkvasan/Block_LU_Inversion.git
+git clone https://github.com/vkvasan/My_Projects/Matrix_Inversion_HLS.git
 ```	
 
 To open any project in Vitis HLS , type the following command in terminal - 
