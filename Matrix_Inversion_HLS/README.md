@@ -34,7 +34,7 @@ Choose the frequency, uncertainity of clock and also your target device for exec
 2. Run Simulation\
 The option to choose ‘run simulation ‘ is present above in the toolbar. The simulations are inherently run by the gcc compiler in Vitis HLS. Make sure that you have that installed in your computer before clicking on -Run Simulation.
 	
-3. Run Synthesis\ 
+3. Run Synthesis 
 For synthesis, choose the option - ‘run synthesis’ from the toolbar menu.
 
 4. Run Co-simulation\
